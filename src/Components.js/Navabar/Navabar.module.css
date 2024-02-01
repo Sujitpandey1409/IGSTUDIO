@@ -1,0 +1,47 @@
+.navabar{
+    height: 47px;
+    /* width: 1135px; */
+    width: 100vw;
+    padding: 0 153px;
+    margin-top: 53px;
+    /* margin-top: -78px;
+    position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 143px;
+    height: 30.3px;
+    display: flex;
+    line-height: 15.95px;
+    gap: 7px;
+    cursor: pointer;
+}
+.pageNav{
+    width: 431px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+.pageNav p{
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 172px;
+    border: 2px solid var(--color-white);
+    font-weight: 600;
+    line-height: 19.36px;
+    cursor: pointer;
+}
