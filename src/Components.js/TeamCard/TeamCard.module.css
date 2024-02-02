@@ -1,0 +1,38 @@
+.cardTeam {
+    width: 344px;
+    height: 109px;
+    padding: 0 26px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 26px;
+}
+
+.cardTeam img {
+    width: 68px;
+    height: 68px;
+}
+
+.cardRight {
+    height: 54px;
+}
+
+.cardRight h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cardRight p {
+    height: 24px;
+    opacity: 0.4;
+    text-align: left;
+}
+
+.addColor {
+    background: #E3B748;
+}

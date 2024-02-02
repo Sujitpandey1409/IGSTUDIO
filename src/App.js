@@ -6,6 +6,7 @@ import Introduction from './pages/Introduction/Introduction';
 import Testimonials from './pages/Testimonials/Testimonials';
 import PracticesArea from './pages/PracticesArea/PracticesArea';
 import Clients from './pages/Clients/Clients';
+import Team from './pages/Team/Team';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Testimonials />
       <PracticesArea />
       <Clients />
+      <Team />
     </div>
   );
 }

@@ -1,1 +1,15 @@
-export contact = [{}]
+import image1 from './team1.png'
+import image2 from './team2.png'
+import image3 from './team3.png'
+import image4 from './team4.png'
+import image5 from './team5.png'
+import image6 from './team6.png'
+export const contact = [
+    {icon:image1,middle:false,title:'Danial Def',subtitle:'301 Cases'},
+    {icon:image2,middle:true,title:'Sanfole',subtitle:'850 Cases'},
+    {icon:image5,middle:false,title:'Casforila',subtitle:'470 Cases'},
+    {icon:image3,middle:false,title:'Collen',subtitle:'180 Cases'},
+    {icon:image4,middle:false,title:'Haldone',subtitle:'212 Cases'},
+    {icon:image6,middle:false,title:'Nik jeo',subtitle:'350 Cases'},
+
+]
