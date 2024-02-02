@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import Introduction from './pages/Introduction/Introduction';
 import Testimonials from './pages/Testimonials/Testimonials';
 import PracticesArea from './pages/PracticesArea/PracticesArea';
+import Clients from './pages/Clients/Clients';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Introduction />
       <Testimonials />
       <PracticesArea />
+      <Clients />
     </div>
   );
 }

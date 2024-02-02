@@ -1,0 +1,47 @@
+.buttonContainer {
+    width: 200px;
+    height: 91.85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonRight {
+    width: 90.61px;
+    height: 90.61px;
+    font-size: large;
+    font-weight: 900;
+    display: grid;
+    align-items: center;
+    background: var(--color-primary);
+    border-radius: 51px;
+    color: var(--color-black);
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.arrowRight {
+    width: 16.03px;
+    height: 25.65px;
+    transform: rotate(90deg);
+    border: 2.2px solid #000000;
+}
+
+.buttonLeft {
+    width: 90.61px;
+    height: 90.61px;
+    background: #E6E6E6;
+    border-radius: 51px;
+    display: grid;
+    align-items: center;
+    color: var(--color-black);
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.arrowLeft {
+    width: 38.48px;
+    height: 38.48px;
+    padding: 6.41px, 11.22px, 6.41px, 11.22px;
+    transform: rotate(-90deg)
+}

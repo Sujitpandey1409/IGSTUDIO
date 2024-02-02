@@ -10,7 +10,7 @@ const Card = ({ icon, title, position, button, middle }) => {
       
   return (
     <div ref={cardBox} className={styles.cardContainer}>
-      <img src={require('../../assets/Group 19.png')} alt="icon" />
+      <img src={icon} alt="icon" />
       <div className={styles.title}>{title}</div>
       {position && <div className={styles.position}>{position}</div>}
       <div className={styles.detail}>
