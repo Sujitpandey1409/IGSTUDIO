@@ -9,16 +9,15 @@ const Team = () => {
     <div className={styles.TeamWrapper}>
       <CardTitle content={"Our Team"} />
       <div className={styles.cardContainer}>
-        {/* <TeamCard icon={image1} title={"Daniel Def"} subtitle={"301 cases"} /> */}
-        {contact.map((el,i)=>
-         (<TeamCard key={i} icon={el.icon} middle={el.middle} title={el.title} subtitle={el.subtitle} />
-         )
-        )
-        }
-        {/* <TeamCard icon={image1} title={"Daniel Def"} subtitle={"301 cases"} />
-        <TeamCard icon={image1} title={"Daniel Def"} subtitle={"301 cases"} />
-        <TeamCard icon={image1} title={"Daniel Def"} subtitle={"301 cases"} />
-        <TeamCard icon={image1} title={"Daniel Def"} subtitle={"301 cases"} /> */}
+        {contact.map((el, i) => (
+          <TeamCard
+            key={i}
+            icon={el.icon}
+            middle={el.middle}
+            title={el.title}
+            subtitle={el.subtitle}
+          />
+        ))}
       </div>
     </div>
   );
