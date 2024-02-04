@@ -16,6 +16,9 @@
     align-items: start;
     text-align: start;
     justify-content: space-between;
+    margin-right: 57px;
+    margin-left: -13px;
+    gap: 15px;
 }
 
 .p1 {
@@ -28,6 +31,7 @@
     font-size: 66px;
     line-height: 97.37px;
     font-weight: 700;
+    margin-top: -26px;
 }
 
 .p3 {

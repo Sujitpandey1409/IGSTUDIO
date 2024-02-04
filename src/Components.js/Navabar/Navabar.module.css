@@ -1,14 +1,15 @@
 .navabar{
     height: 47px;
-    /* width: 1135px; */
     width: 100vw;
-    padding: 0 153px;
-    margin-top: 53px;
-    /* margin-top: -78px;
-    position: fixed; */
+    padding: 69px 111px;
+    margin-top: -121px;
+    z-index: 100;
+    position: fixed;
+    background: var(--color-black);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    opacity: 0.85;
 }
 .logo{
     display: flex;

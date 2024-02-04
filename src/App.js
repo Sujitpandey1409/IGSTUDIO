@@ -7,6 +7,8 @@ import Testimonials from './pages/Testimonials/Testimonials';
 import PracticesArea from './pages/PracticesArea/PracticesArea';
 import Clients from './pages/Clients/Clients';
 import Team from './pages/Team/Team';
+import Subscribe from './pages/Subscribe/Subscribe';
+import Footer from './Components.js/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <PracticesArea />
       <Clients />
       <Team />
+      <Subscribe />
+      <Footer />
     </div>
   );
 }

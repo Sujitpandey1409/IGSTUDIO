@@ -4,6 +4,11 @@ import image3 from './team3.png'
 import image4 from './team4.png'
 import image5 from './team5.png'
 import image6 from './team6.png'
+
+import icon1 from './SocialMedia1.png'
+import icon2 from './SocialMedia2.png'
+import icon3 from './SocialMedia3.png'
+import icon4 from './SocialMedia4.png'
 export const contact = [
     {icon:image1,middle:false,title:'Danial Def',subtitle:'301 Cases'},
     {icon:image2,middle:true,title:'Sanfole',subtitle:'850 Cases'},
@@ -12,4 +17,8 @@ export const contact = [
     {icon:image4,middle:false,title:'Haldone',subtitle:'212 Cases'},
     {icon:image6,middle:false,title:'Nik jeo',subtitle:'350 Cases'},
 
+]
+
+export const SocialMediaIcons = [
+    icon1,icon2,icon3,icon4
 ]
