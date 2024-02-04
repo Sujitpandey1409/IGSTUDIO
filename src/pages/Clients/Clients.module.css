@@ -1,4 +1,4 @@
-.clientsWrapper{
+.clientsWrapper {
     width: 100vw;
     padding: 120px 153px;
     /* margin-top: 120px; */
@@ -9,15 +9,26 @@
     flex-direction: column;
     gap: 51px;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1139px;
+    /* width: 1139px; */
+    width: 1138px;
+    margin-left: 12px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+
 }
-.titleContainer{
+
+.titleContainer {
     width: 374px;
 }
+
+
 .cardContainer {
     width: 1139px;
     display: flex;

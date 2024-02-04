@@ -10,7 +10,7 @@ const Clients = () => {
   return (
     <div className={styles.clientsWrapper}>
       <div className={styles.header}>
-        <div className={styles.titleContaine}><CardTitle content={"What says our happy Clients"} /></div>
+        <div className={styles.titleContainer}><CardTitle content={"What says our happy Clients"} /></div>
         <Button />
       </div>
       <div className={styles.cardContainer}>
