@@ -9,6 +9,7 @@ import Clients from './pages/Clients/Clients';
 import Team from './pages/Team/Team';
 import Subscribe from './pages/Subscribe/Subscribe';
 import Footer from './Components.js/Footer/Footer';
+import Faq from './pages/Faq/Faq';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <PracticesArea />
       <Clients />
       <Team />
+      <Faq />
       <Subscribe />
       <Footer />
     </div>

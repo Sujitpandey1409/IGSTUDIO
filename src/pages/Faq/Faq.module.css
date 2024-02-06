@@ -1,0 +1,55 @@
+.faqWrapper {
+    background: var(--color-gray);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1138px;
+    margin-left: 12px;
+    padding-right: 20px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+}
+
+.titleContainer {
+    width: 1138px;
+    text-align: left;
+}
+
+.titleDetailWrapper {
+    text-align: left;
+    width: 50%;
+}
+
+.titleDetailContainer {
+    width: 374px;
+    text-align: left;
+    position: absolute;
+    /* margin-top: -60px; */
+}
+
+.titleDetailContainer div {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    opacity: 0.3;
+}
+
+.accordionWrapper {
+    width: 50%;
+}
+
+.accordionContainer {
+    width: 1139px;
+}

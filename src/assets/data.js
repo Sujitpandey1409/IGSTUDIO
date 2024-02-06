@@ -22,3 +22,5 @@ export const contact = [
 export const SocialMediaIcons = [
     icon1,icon2,icon3,icon4
 ]
+
+export const AccordionData = ['Do I need a personal injury report?', 'How much is my case worth?', 'What should I do right after car accidect', 'How much is my case worth?']
