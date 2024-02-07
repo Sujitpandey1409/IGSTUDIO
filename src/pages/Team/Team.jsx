@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Team.module.css";
 import CardTitle from "../../Components.js/CardTitle/CardTitle";
 import TeamCard from "../../Components.js/TeamCard/TeamCard";

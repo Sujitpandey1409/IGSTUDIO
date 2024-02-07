@@ -10,12 +10,13 @@
     gap: 31px;
 }
 
+
 .gallery {
     width: 1140px;
     display: flex;
-    filter: brightness(1.4);
     gap: 31px;
 }
+
 
 .gallery1 {
     background-image: url('../../assets/Rectangle\ 3652.png');
@@ -62,6 +63,10 @@
     top: 2313px;
     border-radius: 14px;
 }
+.gallery1:hover, .gallery2:hover, .gallery3:hover, .gallery4:hover, .gallery5:hover, .gallery6:hover{
+    filter: brightness(150%);
+    cursor: pointer;
+} 
 
 /* .wide {
     width: 752px;

@@ -13,9 +13,11 @@
     border: 1.4px solid #FFFFFF1A;
     padding: 20px;
 }
-.middleCard{
+.cardContainer:hover {
     background: #2E2E2E;
 }
+
+
 
 .icon {
     width: 101px;

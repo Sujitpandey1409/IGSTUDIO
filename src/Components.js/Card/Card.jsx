@@ -1,15 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import styles from "./Card.module.css";
-const Card = ({ icon, title, position, button, middle }) => {
-    const cardBox = useRef(null)
-    useEffect(() => {
-        if (middle && cardBox.current) {
-          cardBox.current.classList.add(styles.middleCard);
-        }
-      }, [middle]);
+const Card = ({ icon, title, position, button }) => {
+
       
   return (
-    <div ref={cardBox} className={styles.cardContainer}>
+    <div className={styles.cardContainer}>
       <img src={icon} alt="icon" />
       <div className={styles.title}>{title}</div>
       {position && <div className={styles.position}>{position}</div>}

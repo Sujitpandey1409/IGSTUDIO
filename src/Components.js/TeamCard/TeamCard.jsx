@@ -1,13 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import styles from './TeamCard.module.css'
-const TeamCard = ({icon, title, subtitle, middle}) => {
-    const teamCard = useRef(null)
-    useEffect(()=>{
-        if(middle){
-            teamCard.current.classList.add(styles.addColor)
-        }
-    }
-    )
+const TeamCard = ({icon, title, subtitle}) => {
+  const teamCard = useRef(null)
   return (
     <div ref={teamCard} className={styles.cardTeam}>
       <img src={icon} alt={icon}/>
