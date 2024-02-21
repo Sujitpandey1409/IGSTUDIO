@@ -10,12 +10,12 @@ const Navabar = () => {
                     <p>IGSTUDIO</p>
                 </div>
                 <div className={styles.pageNav}>
-                    <p>Home</p>
-                    <p>Attorneys</p>
-                    <p>Practice Areas</p>
-                    <p>About Us</p>
+                    <a href='#'><p>Home</p></a>
+                    <a href='#Attorneys'><p>Attorneys</p></a>
+                    <a href='#Practice-Areas'>Practice Areas</a>
+                    <a href='#About-Us'>About Us</a>
                 </div>
-                <div className={styles.button}><p>Contact Now</p></div>
+                <a href='#Contact'> <div className={styles.button}>Contact Now</div></a>
             </div>
         </div>
     );

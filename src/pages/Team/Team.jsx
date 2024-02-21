@@ -6,7 +6,7 @@ import image1 from "../../assets/Ellipse 14.png";
 import { contact } from "../../assets/data";
 const Team = () => {
   return (
-    <div className={styles.TeamWrapper}>
+    <div className={styles.TeamWrapper} id="Attorneys">
       <CardTitle content={"Our Team"} />
       <div className={styles.cardContainer}>
         {contact.map((el, i) => (

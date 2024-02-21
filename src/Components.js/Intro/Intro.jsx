@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Intro.module.css";
 const Intro = () => {
   return (
-    <div className={styles.introContainer}>
+    <div id="About-Us" className={styles.introContainer}>
       <div className={styles.titleLeft}>Let’s Introduce Ourself</div>
       <div className={styles.seperator}></div>
       <div className={styles.introRight}>

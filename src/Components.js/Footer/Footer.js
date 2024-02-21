@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 import { SocialMediaIcons } from '../../assets/data';
 const Footer = () => {
     return (
-        <div className={styles.footerWrapper}>
+        <div id='Contact' className={styles.footerWrapper}>
             <div className={styles.footerContainer}>
                 <div className={styles.iconContainer}>
                     {SocialMediaIcons.map((icon, i) =>

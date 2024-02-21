@@ -5,7 +5,7 @@ import PhotoGallery from '../../Components.js/photoGallery/PhotoGallery';
 
 const PracticesArea = () => {
     return ( 
-        <div className={styles.PracticesArea}>
+        <div id="Practice-Areas" className={styles.PracticesArea}>
            <CardTitle content={'Area of Practices'} />
             <PhotoGallery />
         </div>
